@@ -1,10 +1,10 @@
 import React from 'react';
-import '../app/App.css';
+import '../app/index.css';
 
 function App() {
   return (
-    <div>
-    </div>
+      <div>
+      </div>
   );
 }
 
