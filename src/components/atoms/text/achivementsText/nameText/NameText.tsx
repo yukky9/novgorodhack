@@ -1,10 +1,12 @@
 import React from 'react';
 
-const NameText = () => {
-    return (
-        <div>
+type Props = {
+    name: string
+}
 
-        </div>
+const NameText = ({name}:Props) => {
+    return (
+        <p className="text-2xl font-medium text-gray-900 dark:text-white">{name}</p>
     );
 };
 

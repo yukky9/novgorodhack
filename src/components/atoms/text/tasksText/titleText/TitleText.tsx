@@ -1,10 +1,12 @@
 import React from 'react';
 
-const TitleText = () => {
-    return (
-        <div>
+type Props = {
+    title:string
+}
 
-        </div>
+const TitleText = ({title}:Props) => {
+    return (
+        <p className="text-2xl font-medium text-gray-900 dark:text-white">{title}</p>
     );
 };
 
