@@ -5,7 +5,7 @@ import TasksBlock from '../../molecules/blocks/tasksBlock/TasksBlock';
 
 const GroupBlocks = () => {
     return (
-        <div className='mt-48 ml-80 items-center flex gap-10'>
+        <div className='mt-20 ml-72 items-center flex gap-10'>
             <AchievementsBlock/>
             <StatisticsBlock/>
             <TasksBlock/>
