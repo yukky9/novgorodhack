@@ -6,7 +6,7 @@ type Props = {
 
 const DescriptionText = ({description}:Props) => {
     return (
-        <p className="text-sm font-extralight text-gray-900 dark:text-white">{description}</p>
+        <p className="text-sm font-light text-gray-900 dark:text-dark-blue">{description}</p>
     );
 };
 

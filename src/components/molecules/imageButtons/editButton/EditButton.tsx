@@ -1,10 +1,11 @@
 import React from 'react';
+import editBt from '../../../atoms/image/icons/edit.png'
 
 const EditButton = () => {
     return (
-        <div>
-
-        </div>
+        <button>
+            <img src={editBt} alt='edit'/>
+        </button>
     );
 };
 
