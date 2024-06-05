@@ -6,7 +6,7 @@ type Props = {
 
 const GeneralText = ({title}:Props) => {
     return (
-        <p className="text-4xl font-semibold text-dark-blue mb-3">{title}</p>
+        <p className="text-4xl font-semibold text-white mb-3">{title}</p>
     );
 };
 

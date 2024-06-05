@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: url("https://life.lfny.org/wp-content/uploads/2020/08/shutterstock_733632979.jpg");
+    backdrop-filter: blur(10px);
+}
 
 :root,
 #root,

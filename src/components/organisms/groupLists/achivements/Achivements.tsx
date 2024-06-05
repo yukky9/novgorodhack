@@ -14,7 +14,7 @@ import GeneralText from '../../../atoms/text/generalText/GeneralText';
 
 const Achivements = () => {
     return (
-        <div className=''>
+        <div>
             <div className='mx-64 mt-20 flex gap-96'>
                 <GeneralText title='Достижения'/>
                 <a href='/'><BackButton text='Назад'/></a>
