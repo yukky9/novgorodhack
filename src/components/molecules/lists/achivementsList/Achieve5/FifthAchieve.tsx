@@ -11,7 +11,7 @@ const FifthAchieve = () => {
                 <img className='rounded my-auto' src={logo} alt='achieve1'/>
                 <div>
                     <NameText name='Достижение №5'/>
-                    <DescriptionText description='Solve the category completely'/>
+                    <DescriptionText description='Решите категорию темы полностью'/>
                 </div>
                 <div className='my-auto mx-auto'>
                     <EditButton/>

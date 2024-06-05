@@ -11,7 +11,7 @@ const NinthAchieve = () => {
                 <img className='rounded my-auto' src={logo} alt='achieve1'/>
                 <div>
                     <NameText name='Достижение №9'/>
-                    <DescriptionText description='Solve the theme in all difficulties'/>
+                    <DescriptionText description='Решите тему во всех сложностях'/>
                 </div>
                 <div className='my-auto mx-auto'>
                     <EditButton/>

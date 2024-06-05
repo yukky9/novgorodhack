@@ -11,7 +11,7 @@ const SixthAchieve = () => {
                 <img className='rounded my-auto' src={logo} alt='achieve1'/>
                 <div>
                     <NameText name='Достижение №6'/>
-                    <DescriptionText description='Win the task from the Yandex GPT'/>
+                    <DescriptionText description='Выиграйте у Yandex GPT'/>
                 </div>
                 <div className='my-auto mx-auto'>
                     <EditButton/>

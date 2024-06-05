@@ -11,7 +11,7 @@ const FirstAchieve = () => {
                 <img className='rounded my-auto' src={logo} alt='achieve1'/>
                 <div>
                     <NameText name='Достижение №1'/>
-                    <DescriptionText description='Solve 10 tasks'/>
+                    <DescriptionText description='Решите 10 задач'/>
                 </div>
                 <div className='my-auto mx-auto'>
                     <EditButton/>

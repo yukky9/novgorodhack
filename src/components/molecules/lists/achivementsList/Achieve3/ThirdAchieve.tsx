@@ -11,7 +11,7 @@ const ThirdAchieve = () => {
                 <img className='rounded my-auto' src={logo} alt='achieve1'/>
                 <div>
                     <NameText name='Достижение №3'/>
-                    <DescriptionText description='Go to the top 1!'/>
+                    <DescriptionText description='Войдите в топ-1!'/>
                 </div>
                 <div className='my-auto mx-auto'>
                     <EditButton/>

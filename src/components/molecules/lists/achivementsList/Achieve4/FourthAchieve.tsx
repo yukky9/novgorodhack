@@ -11,7 +11,7 @@ const FourthAchieve = () => {
                 <img className='rounded my-auto' src={logo} alt='achieve1'/>
                 <div>
                     <NameText name='Достижение №4'/>
-                    <DescriptionText description='Solve the theme completely'/>
+                    <DescriptionText description='Решите тему полностью'/>
                 </div>
                 <div className='my-auto mx-auto'>
                     <EditButton/>
