@@ -1,6 +1,7 @@
 import React from 'react';
 import TitleText from '../../../../atoms/text/tasksText/titleText/TitleText';
-import EditButton from '../../../imageButtons/editButton/EditButton';
+import EditThemeButton from '../../../imageButtons/editButton/EditThemeButton';
+
 
 const Task10 = () => {
     return (
@@ -10,7 +11,7 @@ const Task10 = () => {
                     <TitleText title='ОГЭ'/>
                 </div>
                 <div className='my-auto mx-auto'>
-                    <EditButton/>
+                    <EditThemeButton/>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import logo from "../../../../atoms/image/achivements/9.png";
 import DescriptionText from '../../../../atoms/text/achivementsText/descriptionText/DescriptionText';
 import NameText from '../../../../atoms/text/achivementsText/nameText/NameText';
-import EditButton from '../../../imageButtons/editButton/EditButton';
+import EditAchievementsButton from "../../../../molecules/imageButtons/editButton/EditAchievementsButton";
 
 const NinthAchieve = () => {
     return (
@@ -14,7 +14,7 @@ const NinthAchieve = () => {
                     <DescriptionText description='Решите тему во всех сложностях'/>
                 </div>
                 <div className='my-auto mx-auto'>
-                    <EditButton/>
+                    <EditAchievementsButton/>
                 </div>
             </div>
         </div>

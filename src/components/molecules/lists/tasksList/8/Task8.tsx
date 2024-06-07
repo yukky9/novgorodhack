@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "../../../../atoms/image/icons/fluctuation.png";
 import TitleText from '../../../../atoms/text/tasksText/titleText/TitleText';
-import EditButton from '../../../imageButtons/editButton/EditButton';
+import EditThemeButton from '../../../imageButtons/editButton/EditThemeButton';
 
 const Task8 = () => {
     return (
@@ -12,7 +12,7 @@ const Task8 = () => {
                     <TitleText title='Квадратные неравенства'/>
                 </div>
                 <div className='my-auto mx-auto'>
-                    <EditButton/>
+                    <EditThemeButton/>
                 </div>
             </div>
         </div>

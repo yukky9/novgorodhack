@@ -1,6 +1,5 @@
 import React from 'react';
 import FirstAchieve from '../../../molecules/lists/achivementsList/Achieve1/FirstAchieve'
-import AddButton from "../../../molecules/imageButtons/addButton/AddButton";
 import SecondAchieve from '../../../molecules/lists/achivementsList/Achieve2/SecondAchieve';
 import ThirdAchieve from '../../../molecules/lists/achivementsList/Achieve3/ThirdAchieve';
 import FourthAchieve from '../../../molecules/lists/achivementsList/Achieve4/FourthAchieve';
@@ -11,6 +10,7 @@ import EighthAchieve from '../../../molecules/lists/achivementsList/Achieve8/Eig
 import NinthAchieve from '../../../molecules/lists/achivementsList/Achieve9/NinthAchieve';
 import BackButton from '../../../molecules/imageButtons/backButton/BackButton';
 import GeneralText from '../../../atoms/text/generalText/GeneralText';
+import AddAchievementsButton from '../../../molecules/imageButtons/addButton/AddAchievementsButton';
 
 const Achivements = () => {
     return (
@@ -32,9 +32,10 @@ const Achivements = () => {
                     <SevenAchieve/>
                     <EighthAchieve/>
                     <NinthAchieve/>
-                    <AddButton/>
+                    <AddAchievementsButton/>
                 </div>
             </div>
+
         </div>
     );
 };

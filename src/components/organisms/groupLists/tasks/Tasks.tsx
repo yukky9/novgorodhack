@@ -1,6 +1,6 @@
 import React from 'react';
 import GeneralText from '../../../atoms/text/generalText/GeneralText';
-import AddButton from '../../../molecules/imageButtons/addButton/AddButton';
+import AddThemeButton from '../../../molecules/imageButtons/addButton/AddThemeButton';
 import BackButton from '../../../molecules/imageButtons/backButton/BackButton';
 import Task1 from '../../../molecules/lists/tasksList/1/Task1';
 import Task10 from '../../../molecules/lists/tasksList/10/Task10';
@@ -38,7 +38,7 @@ const Tasks = () => {
                     <Task10/>
                     <Task11/>
                     <Task12/>
-                    <AddButton/>
+                    <AddThemeButton/>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "../../../../atoms/image/icons/formula.png";
 import TitleText from '../../../../atoms/text/tasksText/titleText/TitleText';
-import EditButton from '../../../imageButtons/editButton/EditButton';
+import EditThemeButton from '../../../imageButtons/editButton/EditThemeButton';
 
 const Task6 = () => {
     return (
@@ -12,7 +12,7 @@ const Task6 = () => {
                     <TitleText title='Квадратные уравнения'/>
                 </div>
                 <div className='my-auto mx-auto'>
-                    <EditButton/>
+                    <EditThemeButton/>
                 </div>
             </div>
         </div>

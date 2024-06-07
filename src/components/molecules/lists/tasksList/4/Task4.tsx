@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "../../../../atoms/image/icons/education.png";
 import TitleText from '../../../../atoms/text/tasksText/titleText/TitleText';
-import EditButton from '../../../imageButtons/editButton/EditButton';
+import EditThemeButton from '../../../imageButtons/editButton/EditThemeButton';
 
 const Task4 = () => {
     return (
@@ -12,7 +12,7 @@ const Task4 = () => {
                     <TitleText title='Линейные уравнения'/>
                 </div>
                 <div className='my-auto mx-auto'>
-                    <EditButton/>
+                    <EditThemeButton/>
                 </div>
             </div>
         </div>
