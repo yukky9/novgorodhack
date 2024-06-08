@@ -5,7 +5,7 @@ import CardText from '../../../atoms/text/generalText/CardText';
 import ModalTemplate from '../../../templates/modal/ModalTemplate';
 import Drag from '../../drag/Drag';
 import image from "../../../atoms/image/icons/arithmetic.png";
-import TypeThemeInput from '../../../atoms/inputs/TypeThemeInput';
+import DeleteButton from '../../../atoms/buttons/delete/DeleteButton';
 
 const EditThemeButton = () => {
     const [isModalOpen, setModalOpen] = useState(false);
@@ -34,6 +34,7 @@ const EditThemeButton = () => {
                         <CardText title="Редактировать тему"/>
                         <Drag/>
                         <EditInputs/>
+                        <DeleteButton text='Delete'/>
                     </div>
                 </div>
             </ModalTemplate>

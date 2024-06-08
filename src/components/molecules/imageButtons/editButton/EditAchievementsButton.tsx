@@ -5,8 +5,7 @@ import CardText from '../../../atoms/text/generalText/CardText';
 import ModalTemplate from '../../../templates/modal/ModalTemplate';
 import Drag from '../../drag/Drag';
 import logo from "../../../atoms/image/achivements/1.png";
-import TypeAchieveInput from '../../../atoms/inputs/TypeAchieveInput';
-import NumInput from '../../../atoms/inputs/NumInput';
+import DeleteButton from '../../../atoms/buttons/delete/DeleteButton';
 
 
 const EditButton = () => {
@@ -34,6 +33,7 @@ const EditButton = () => {
                         <CardText title="Редактировать достижение"/>
                         <Drag/>
                         <EditInputs/>
+                        <DeleteButton text='Delete'/>
                     </div>
                 </div>
             </ModalTemplate>
