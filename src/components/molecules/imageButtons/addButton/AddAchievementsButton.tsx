@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import addBt from '../../../atoms/image/icons/Group_62.png'
 import NameInputs from '../../../atoms/inputs/NameInputs';
+import NumInput from '../../../atoms/inputs/NumInput';
+import TypeAchieveInput from '../../../atoms/inputs/TypeAchieveInput';
 import CardText from '../../../atoms/text/generalText/CardText';
 import ModalTemplate from '../../../templates/modal/ModalTemplate';
 import Drag from '../../drag/Drag';
@@ -25,10 +27,17 @@ const AddAchievementsButton = () => {
                 <img className='mx-auto' src={addBt} alt='add'/>
             </button>
             <ModalTemplate isOpen={isModalOpen} onClose={closeModal} Submit={submitModal}>
-                <CardText title="Создать достижение"/>
-                <Drag/>
-                <NameInputs/>
-
+                <div className='flex gap-5'>
+                    <Drag/>
+                    <div>
+                        <CardText title="Создать достижение"/>
+                        <NameInputs/>
+                        <TypeAchieveInput/>
+                        <div className='-mt-10'>
+                            <NumInput/>
+                        </div>
+                    </div>
+                </div>
             </ModalTemplate>
         </div>
     );

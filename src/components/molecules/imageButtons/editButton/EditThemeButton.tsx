@@ -5,6 +5,7 @@ import CardText from '../../../atoms/text/generalText/CardText';
 import ModalTemplate from '../../../templates/modal/ModalTemplate';
 import Drag from '../../drag/Drag';
 import image from "../../../atoms/image/icons/arithmetic.png";
+import TypeThemeInput from '../../../atoms/inputs/TypeThemeInput';
 
 const EditThemeButton = () => {
     const [isModalOpen, setModalOpen] = useState(false);
@@ -25,8 +26,10 @@ const EditThemeButton = () => {
                 <img src={editBt} alt='edit'/>
             </button>
             <ModalTemplate isOpen={isModalOpen} onClose={closeModal} Submit={submitModal}>
-                <div className='flex gap-5'>
-                    <img className='w-36 h-36 my-auto border border-yellow rounded-xl' src={image} alt='image'/>
+                <div className='flex gap-10'>
+                    <div className='my-auto mt-28'>
+                        <img className='w-36 h-36 border border-yellow rounded-xl' src={image} alt='image'/>
+                    </div>
                     <div>
                         <CardText title="Редактировать тему"/>
                         <Drag/>
