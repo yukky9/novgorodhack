@@ -9,7 +9,6 @@ const TypeAchieveInput = () => {
                 <option value="US">Рейтинг</option>
                 <option value="CA">Топ</option>
                 <option value="FR">Количество заданий</option>
-                <option value="DE">Новая тема</option>
             </select>
         </div>
     );
